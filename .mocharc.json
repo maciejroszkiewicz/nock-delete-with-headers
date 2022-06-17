@@ -1,0 +1,11 @@
+{
+  "recursive": true,
+  "require": [
+    "env-test",
+    "@babel/register"
+  ],
+  "timeout": 5000,
+  "exit": true,
+  "reporter": "mocha-multi-reporters",
+  "reporter-options": "configFile=test/reporters.json"
+}
